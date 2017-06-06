@@ -1,0 +1,17 @@
+<!doctype html>
+<body>
+	<h1>I love Koh Chang</h1>
+	
+	<script>
+		var header = document.querySelector('h1')
+		var hue = 1
+		setInterval(() => {
+			console.log('firing')
+			header.style.color = "hsl(" + hue +", 100%, 50%)"
+			hue += 1
+		}, 50)
+	</script>
+
+
+</body>
+
